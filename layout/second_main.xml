@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.jithu.restaurent.MainActivity" >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/linearLayout">
+
+                <TextView
+                    android:id="@+id/tv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorAccent"
+                    android:layout_marginBottom="50dp"
+                    android:text="SELECT ITEM" />
+
+            </LinearLayout>
+
+
+            <AutoCompleteTextView
+                android:id="@+id/atv1"
+                android:layout_width="268dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="80dp"
+                android:text=" " />
+
+
+            <AutoCompleteTextView
+                android:id="@+id/atv2"
+                android:layout_width="266dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/atv1"
+                android:text="" />
+
+
+            <AutoCompleteTextView
+                android:id="@+id/atv3"
+                android:layout_width="266dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/atv2"
+                android:text="" />
+
+            <AutoCompleteTextView
+                android:id="@+id/atv4"
+                android:layout_width="268dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/atv3"
+                android:text="" />
+
+            <AutoCompleteTextView
+                android:id="@+id/atv5"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/atv4"
+                android:text="" />
+
+            <AutoCompleteTextView
+                android:id="@+id/atv6"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/atv5"
+                android:text="" />
+            <AutoCompleteTextView
+                android:id="@+id/atv7"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/atv6"
+                android:text="" />
+            <AutoCompleteTextView
+                android:id="@+id/atv8"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/atv7"
+                android:text="" />
+
+
+
+
+
+            <EditText
+                android:id="@+id/et1"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/atv1"
+                android:layout_toRightOf="@+id/atv1"
+                android:layout_marginTop="80dp"
+                android:ems="10"
+
+                />
+
+            <EditText
+                android:id="@+id/et2"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/et1"
+                android:layout_toEndOf="@+id/atv2"
+                android:layout_toRightOf="@+id/atv2"
+                android:ems="10" />
+
+            <EditText
+                android:id="@+id/et3"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/et2"
+                android:layout_toEndOf="@+id/atv3"
+                android:layout_toRightOf="@+id/atv3"
+                android:ems="10" />
+
+            <EditText
+                android:id="@+id/et4"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/et3"
+                android:layout_toEndOf="@+id/atv4"
+                android:layout_toRightOf="@+id/atv4"
+                android:ems="10" />
+
+            <EditText
+                android:id="@+id/et5"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/atv5"
+                android:layout_alignBottom="@+id/atv5"
+                android:layout_toEndOf="@+id/atv3"
+                android:layout_toRightOf="@+id/atv3"
+                android:ems="10" />
+
+
+            <EditText
+                android:id="@+id/et6"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/atv7"
+                android:layout_alignLeft="@+id/et5"
+                android:layout_alignStart="@+id/et5"
+                android:ems="10"
+                />
+
+            <EditText
+                android:id="@+id/et7"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/atv8"
+                android:layout_toEndOf="@+id/atv4"
+                android:layout_toRightOf="@+id/atv4"
+                android:ems="10"
+                />
+
+            <EditText
+                android:id="@+id/et8"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:layout_below="@+id/et7"
+                android:layout_toRightOf="@+id/atv7"
+                android:layout_toEndOf="@+id/atv7" />
+
+
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_toEndOf="@+id/atv5"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="50dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorAccent"
+                android:layout_toRightOf="@+id/atv5"
+                android:text="QTY" />
+
+            <Button
+                android:id="@+id/bt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="50dp"
+                android:layout_below="@+id/atv8"
+                android:text="Submit" />
+
+            <Button
+                android:id="@+id/bt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/tv2"
+                android:layout_alignRight="@+id/tv2"
+                android:layout_below="@+id/atv8"
+                android:layout_marginEnd="15dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="15dp"
+                android:text="Table View" />
+
+            <TextView
+                android:id="@+id/tvt"
+                android:layout_width="170dp"
+                android:layout_height="40dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textColor="@color/colorAccent"
+                android:layout_marginTop="14dp"
+                android:textSize="30dp"
+                android:text=" " />
+
+
+        </RelativeLayout>
+
+
+    </HorizontalScrollView>
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>
+

@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Orders</string>
+
+
+    <string-array name="items_array">
+
+        <item>CHIKEN FRY</item>
+        <item>CHIKEN CURRY</item>
+        <item>CHIKEN MANCHURIYA</item>
+        <item>CHIKEN 65</item>
+        <item>CHIKEN CHILLY</item>
+        <item>CHIKEN GARLIC </item>
+        <item>MUTTON  FRY</item>
+        <item>MUTTON CURRY</item>
+        <item>MUTTON 65</item>
+        <item>MUTTON KHEMA</item>
+        <item>MUTTON MANCHURIYA</item>
+        <item>MUTTON BIRYANI</item>
+        <item>FISH  FRY</item>
+        <item>FISH  DRY FRY</item>
+        <item>FISH  65</item>
+        <item>FISH  APOLO</item>
+        <item>FISH  CURRY</item>
+        <item>FISH  AAA</item>
+
+
+
+        ...
+    </string-array>
+
+
+</resources>
